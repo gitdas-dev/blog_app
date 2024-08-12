@@ -1,6 +1,7 @@
 import './App.css'
 
 function App() {
+  console.log(import.meta.env.VITE_APPWRITE_URL)
 
   return (
     <>
@@ -10,3 +11,4 @@ function App() {
 }
 
 export default App
+ 
